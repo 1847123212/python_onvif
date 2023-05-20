@@ -7,6 +7,6 @@ if self.content_cam() == True :
     for i in range(1,10):
         self.Snapshot()
     end = time.time()
-    print('time usage: ', (end - start) * 100, 'ms')
+    print('time usage: ', (end - start) * 1000 / 10, 'ms')
 else :
     print("fail!")
